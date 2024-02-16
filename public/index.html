@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <title>insureGhana</title>
+</head>
+<body>
+    <header class="top-0  p-4 mx-auto flex justify-center bg-gray-800 text-white">
+        <div class="container flex justify-between items-center">
+            <a href="./index.html"><h1 class="text-lg font-bold">insureGhana</h1></a>
+            <nav class="hidden md:flex space-x-4">
+                <a href="./about.html">About Us</a>
+            </nav>
+            <button class="md:hidden" id="mobile-menu-btn">Menu</button>
+        </div>
+        <nav class="mobile-menu hidden md:hidden bg-gray-800 text-white p-4 space-y-2">
+            <a href="./about.html">About Us</a>
+        </nav>
+    </header>
+    
+   <section id="hero-section" class="flex items-center justify-center min-h-[90vh] p-2">
+    <div class="flex flex-col text-white p-6 bg-black bg-opacity-70 rounded-lg">
+        <h1 class="text-4xl font-sans font-black mb-2">
+            Insure Ghana
+        </h1>
+        <h2 class="text-xl mb-3">Promoting Insurance literacy in Ghana..</h2>
+        <p class="mb-4 text-lg">
+            We believe insurance should be accessible and easy to understand.<br> We're on a mission to improve insurance penetration and financial literacy in Ghana.
+        </p>
+        <div class="text-center">
+            <a href="#" class="bg-[#FF6476] hover:opacity-95 text-white px-6 py-3 rounded-md w-80 inline-block">Learn More</a>
+        </div>
+    </div>
+    
+   </section>
+   <section id="feature-section" class="flex flex-col items-center justify-center  py-6 my-4 mb-6">
+        <div class="py-4 my-4">
+            <h1 class="text-2xl">
+                Project Features
+            </h1>
+        </div>
+        <div class="container w-full flex flex-wrap justify-center gap-4">
+            <div class="max-w-xs rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="./images/Calculator-page.png" alt="Image">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Motor Premium Calculator</div>
+                  <p class="text-gray-700 text-base">
+                    The Motor Premium Calculator offers users the ability to compute motor insurance prices with just few clicks. 
+                    It is designed to be easy to use and friendly to use.
+                  </p>
+                </div>
+              </div>
+            <div class="max-w-xs rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="./images/forex-api.png" alt="Image">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Forex Bar</div>
+                  <p class="text-gray-700 text-base">
+                    The forex bar provides daily exchange rate for Cedi to 4 other currencies. An API fetch occurrs every midnight on the server side which save the data to our local database. This is then consumed on the frontend.
+                  </p>
+                </div>
+              </div>
+            <div class="max-w-xs rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="./images/project-landing-page.png" alt="Image">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Landing Page</div>
+                  <p class="text-gray-700 text-base">
+                    The projects landing page has a thought provoking title which sets the mode for wanting to know more. It also provides call to action buttons to various function on the platform.
+                  </p>
+                </div>
+              </div>
+              
+        </div>
+   </section>
+   <section id="about" class="flex flex-col items-center justify-center  py-6 my-4 bg-slate-50">
+    <div class="pt-4 mt-4">
+        <h1 class="text-2xl">
+            About Us
+        </h1>
+
+    </div>
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold text-center mb-8">From Frustration to Innovation: Unlocking Ghana's Hidden Insurance Potential</h2>
+        <div class="text-lg leading-relaxed text-gray-700">
+          <p class="mb-6">
+            Since 2017, the landscape of insurance in Ghana has faced a significant challenge: low penetration, hovering around 1%. Yet, within this challenge lies immense potential for growth and transformation.
+          </p>
+          <p class="mb-6">
+            Among the myriad reasons contributing to this low penetration rate is the prevailing misconception about insurance in our country. Many Ghanaians perceive insurance claims processes as cumbersome or have encountered negative experiences with claims. Furthermore, a considerable portion of the population remains unaware of insurance policies, while skepticism about its legitimacy persists.
+          </p>
+          <p class="mb-6">
+            According to a 2021 survey conducted by the UN Development Programme, approximately 70% of Ghanaians lack access to any form of insurance. Moreover, existing insurance products often fail to align with the diverse needs of our population.
+          </p>
+          <p class="mb-6">
+            While Ghana's banking sector thrives on a plethora of digital services, the insurance industry has lagged behind in this digital evolution.
+          </p>
+          <p class="mb-6">
+            Drawing from our extensive experience in the insurance sector spanning over the past five years,It was easy for us to decide to embark on this journey as our project as part of our ALX SE program. Our mission is clear: to address these challenges head-on by leveraging technology and innovation.
+          </p>
+          <p class="mb-6">
+            Our solution is simple yet powerful. We have crafted a platform designed to demystify insurance complexities and foster awareness. Through curated news feeds, insightful blogs, and engaging community discussions, we aim to empower Ghanaians with knowledge and understanding.
+          </p>
+          <p class="mb-6">
+            Central to our platform is a user-friendly Premium Calculator, enabling individuals to explore insurance options tailored to their unique needs effortlessly.
+          </p>
+        </div>
+      </div>
+      <div class="max-w-4xl mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold text-center mb-8">Meet Our Team</h2>
+        
+        <div class="flex flex-col space-y-4">
+          <!-- Team Member 1 -->
+          <div class="flex items-center">
+            <img src="./images/eng.jpg" alt="ENG" class="w-12 h-12 rounded-full mr-4">
+            <div>
+              <h3 class="text-xl font-semibold">Emmmanuel Ntaadu Gyamfi</h3>
+              <div class="flex space-x-2">
+                <a href="https://linkedin.com/in/engyamfi" class="text-blue-600 hover:underline" target="_blank">LinkedIn</a>
+                <a href="https://github.com/KwameNtaadu007" class="text-gray-600 hover:underline" target="_blank">GitHub</a>
+                <a href="https://twitter.com/KwameNtaadu" class="text-blue-400 hover:underline" target="_blank">Twitter</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Team Member 2 -->
+          <div class="flex items-center">
+            <img src="./images/brigitte.jpg" alt="Team Member 2" class="w-12 h-12 rounded-full mr-4">
+            <div>
+              <h3 class="text-xl font-semibold">Brigitte Koranteng</h3>
+              <div class="flex space-x-2">
+                <a href="https://www.linkedin.com/in/brigitte-koranteng27" class="text-blue-600 hover:underline" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Brig1tte" class="text-gray-600 hover:underline" target="_blank">GitHub</a>
+                <a href="https://twitter.com/OJba_Bi" class="text-blue-400 hover:underline" target="_blank">Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="mt-8 text-center">
+          <a href="https://github.com/KwameNtaadu007/MVP.git" class="text-blue-600 hover:underline" target="_blank">GitHub Repository</a>
+        </div>
+      </div>
+      
+      
+   </section>
+   <script src="./index.js"></script>
+</body>
+</html>

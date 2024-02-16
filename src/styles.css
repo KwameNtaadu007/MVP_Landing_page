@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    scroll-behavior: smooth;
+}
+
+#hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../public/images/insureGhana.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 93.5vh; /* Adjust as needed */
+}
+
+
+/* Add mobile menu styles */
+.mobile-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50vw;
+}
+
+.mobile-menu a {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
