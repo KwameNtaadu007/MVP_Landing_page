@@ -1,5 +1,14 @@
 # MVP_Landing_page
 
-This is a anding page for a portfolio project as part of the ALX SE training.
+Visit our landing page [here](https://kwamentaadu007.github.io/MVP_Landing_page/).
 
-Team Members EMMANUEL NTAADU GYAMFI - engyamfi@st.ug.edu.gh Brigitte Koranteng - korantengbrigitte96@gmail.com
+This landing page is a portfolio project developed as part of the ALX SE training.
+
+## Team Members:
+- **Emmmanuel Ntaadu Gyamfi**
+  - Email: engyamfi@st.ug.edu.gh
+
+- **Brigitte Koranteng**
+  - Email: korantengbrigitte96@gmail.com
+
+Feel free to explore our project and reach out to us for any inquiries or collaborations!
